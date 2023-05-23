@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bewondy Portfolio</title>
+    <!-- My Style CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- TailwindsCSS Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fonts Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Switch Mode
+    <div class="flex justify-end items-center space-x-2 wrapper switch">
+      <span class="text-sm text-gray-800">Light</span>
+      <div>
+        <input type="checkbox" name="" id="toggle" class="hidden">
+          <label for="toggle">
+            <div class="w-9 h-5 flex items-center bg-gray-300 rounded-full p-1 m-4">
+              <div class="toggle-dot w-4 h-4 bg-white rounded-full shadow-md transform"></div>
+            </div>
+          </label>
+      </div>
+      <span class="text-sm text-gray-400">Dark</span>
+    </div> -->
+
+    <!-- ======== Header start here ========= -->
+    <header>
+      <div class="wrapper wrapper-nav flex justify-between flex-wrap items-center">
+        <a href="index.html">
+          <h1>Bewondy</h1>
+          <p class="text-red-600">Design - Photography & Code</p>
+        </a>
+
+        <ul class="flex justify-center items-center">
+            <li><a href="index.html">About</a></li>
+            <li class="ml-11"><a href="index.html">Projects</a></li>
+            <li class="ml-11"><a href="index.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section  -->
+    <section class="main-container hero bg-slate-50">
+      <div class="wrapper grid grid-cols-1 md:grid-cols-2 items-center justify-between">
+        <div class="intro mb-4">
+          <p class="text-2xl mb-2">Hi, I'm Bewondy</p>
+          <h1 class="font-bold text-3xl	">Graphic Designer, Web Integrator & Portrait photographer in montreal.</h1>
+
+          <ul class="tech_stock flex mt-6 dark:text-white">
+            <li class="mr-5"><img src="images/html5.png" alt=""></li>
+            <li class="mr-5"><img src="images/css3.png" alt=""></li>
+            <li class="mr-5"><img src="images/javascript.png" alt=""></li>
+            <li class="mr-5"><img src="images/sass.png" alt=""></li>
+            <li class="mr-5"><img src="images/tailwind-css.png" alt=""></li>
+            <li class="mr-5"><img src="images/wordpress.png" alt=""></li>
+            <li><img src="images/figma.png" alt=""></li>
+          </ul>
+          <!-- CTA Button here -->
+            <a href="#" class="cta-btn mt-11 inline-block text-red-600 font-bold text-lg">Work with Me <ion-icon name="mail-open-outline" class="ml-2"></ion-icon></i>
+            </a>
+
+            <a href="#" class="cta-btn mt-11 justify-center items-center inline-block text-slate-400 font-normal px-4 py-2 rounded-md text-lg">See what I did <i class="fa-solid fa-arrow-right ml-2 mr-4"></i>
+            </a>
+        </div>
+
+        <div class="hero-profil flex justify-end">
+          <img src="images/bewondy-profil-clr.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- Recents Projets ============================== -->
+    <section class="main-container recent-projects-container p-8">
+      <div class="wrapper recent-projects">
+          <div class="title flex justify-between items-center py-6">
+            <h1>Recents Projects</h1>
+            <a href="#" class="cta-btn justify-center items-center inline-block text-red-600 font-bold text-lg">View all <ion-icon name="eye-outline" class="inline-block ml-2"></ion-icon></a>
+          </div>
+
+          <div class="projects-container grid gap-5 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+            <div class="project-items">
+              <img src="images/project-1.png" alt="" class="rounded-md shadow-lg">
+            </div>
+            <div class="project-items rounded-md">
+              <img src="images/project-1b.png" alt="" class="rounded-md shadow-lg">
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
