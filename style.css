@@ -126,6 +126,11 @@ header{
     cursor: pointer;
 }
 
+/* video controls hiddend */
+video::-webkit-media-controls {
+    display:none !important;
+}
+
 /* Mobile style ===========*/
 @media (max-width: 640px) { 
     ul{
