@@ -21,7 +21,7 @@
 /* ========= */
 h1{
     font-weight: bold !important;
-    font-size: 2rem !important;
+    font-size: 1.8rem !important;
     line-height: 2.3rem !important;
     color: var(--title_clr_light);
     
@@ -29,7 +29,7 @@ h1{
 
 h2{
     font-weight: 600 !important;
-    font-size: 1.5rem;
+    font-size: 1.4rem !important;
 }
 
 p{
@@ -40,6 +40,7 @@ p{
 a{
     text-decoration: none;
     color: var(--title_clr_light);
+    font-size: 16px;
 }
 
 li{
@@ -53,7 +54,7 @@ header{
 .main-container{
     width: 100%;
     padding: 5px 16px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     
 }
 
