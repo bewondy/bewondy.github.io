@@ -139,7 +139,7 @@ video::-webkit-media-controls {
 }
 
 .about-content{
-    width: 750px;
+    max-width: 750px;
 }
 
 .about-container h1{
