@@ -133,22 +133,27 @@ video::-webkit-media-controls {
 
 /* Section for About ==== */
 .about-container{
-    max-width: 960px;
+    /* max-width: 960px; */
     margin: 0 auto;
     padding: 5px 16px;
 }
 
 .about-content{
-    margin-top: 100px;
+    width: 750px;
 }
 
 .about-container h1{
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .about-recent-project h1{
     margin-top: 0;
+}
+
+/* ================== Project Page ========================= */
+.project-page-container{
+    height: fit-content;
 }
 
 /* Mobile style ===========*/
